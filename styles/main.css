@@ -87,9 +87,14 @@ main{
 }
 
 
-
-
-
+/* Cards Row */
+.cards-row{
+    display: flex;
+}
+.card-img{
+    width: 100%;
+    object-fit: none;
+}
 
 
 /* Page Footer */
