@@ -2,6 +2,7 @@
 body{
     display: grid;
     position: relative;
+    min-height: 100vh;
 }
 
 /* Navigation bar */
@@ -64,4 +65,41 @@ nav{
     width: 16px;
     height: 21px;
     margin-top: -4px;
+}
+
+
+/* Page Footer */
+footer{
+    padding: 25px 150px;
+    align-self: end;
+    color: #8d8d8d;
+    
+}
+footer a{
+    color: #47a2e8;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.footer-links{
+    display: inline-flex;
+}
+.footer-item{
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    border-right: 1px solid #cccccc;
+}
+.footer-item:last-child{
+    border-right: none;
+}
+.footer-item a,footer small a
+,footer small{
+    font-size: 11.5px;
 }
