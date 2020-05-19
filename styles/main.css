@@ -7,7 +7,6 @@ body{
 
 /* Navigation bar */
 nav{
-    margin: auto;
     display: inline-flex;
     align-items: center;
     background: rgb(115,112,112);
@@ -15,10 +14,11 @@ nav{
     border-radius: 6px;
     justify-content: center;
     margin-top: 80px;
+    position: absolute;
+    justify-self: center;
 }
 .navbar{
     display: flex;
-    
 }
 .nav-link{
     padding: 10px 35px;
@@ -66,6 +66,30 @@ nav{
     height: 21px;
     margin-top: -4px;
 }
+
+
+/* Hero Banner */
+main{
+    height: 540px;
+    background: url(https://web.archive.org/web/20140228114747im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.banner-title img{
+    clip-path: inset(11px 18px 33px 17px)
+}
+.banner-text1{
+    margin-bottom: 20px;
+}
+.banner-text2 img{
+    clip-path: inset(0px 14px 31px 14px);
+}
+
+
+
+
+
 
 
 /* Page Footer */
